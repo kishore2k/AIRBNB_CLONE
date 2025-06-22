@@ -1,0 +1,48 @@
+.home-place-div{
+    padding: 40px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+}
+
+.home-place-card {
+    display: flex;
+    flex-direction: column;
+    width : 20rem;
+    margin-bottom: 40px;
+    padding: 20px;
+    border-radius: 18px;
+    background-color: #F6F5F5;
+    text-decoration: none;
+    color: black;
+}
+
+.home-place-card img{
+    border-radius: 18px;
+}
+
+
+.home-place-card h2,h4{
+    margin: 10px 0 5px;
+}
+
+.home-place-card img{
+    height: 20rem;
+}
+
+.home-card-info{
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width:1600px) {
+    .home-place-div{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media screen and (max-width:1300px) {
+    .home-place-div{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

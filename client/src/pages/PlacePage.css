@@ -1,0 +1,86 @@
+a{
+    color:black;
+}
+
+.place-div{
+    background-color: #F6F5F5;
+    padding: 20px 20px 40px;
+}
+
+.place-div p{
+    font-size: 18px;
+}
+
+.place-img-div{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 200px 200px;
+    grid-template-areas:
+    "a a b"
+    "a a c" ;
+    width:800px;
+    gap: 20px;
+    position: relative;
+}
+
+.place-img-div img{
+    width: 100%;
+    height: 100%;
+}
+
+.place-book-card{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 18px;
+    text-align: center;
+}
+
+.place-book-card input{
+    margin: 5px 0;
+    padding: 10px;
+    width: 100%;
+    border: solid thin;
+}
+
+.place-book-card-date{
+    display: flex;
+}
+
+.place-book-card-date div{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding: 20px 20px 10px;
+    border : solid;
+    border-width: 0.5px;
+}
+
+.place-book-card-guest{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px 20px 20px;
+    border: solid;
+    border-top: none;
+    margin-bottom: 20px;
+    border-bottom-left-radius: 18px;
+    border-bottom-right-radius: 18px;
+    border-width: 0.5px;
+
+}
+
+@media screen and (max-width:800px) {
+    .place-img-div{
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        position: relative;
+    }
+}

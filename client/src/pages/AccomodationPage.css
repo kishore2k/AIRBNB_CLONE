@@ -1,0 +1,19 @@
+.add-place{
+    display: flex;
+    align-items: center;
+    color:white;
+    background-color:#EF4F4F;
+    padding: 15px;
+    /* border-radius: 24px; */
+    width: 15%;
+    margin: 10px auto;
+    font-size: 1.5rem;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.add-place div{
+    margin-left: 10px;
+}
+
+

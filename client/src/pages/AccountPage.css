@@ -1,0 +1,37 @@
+.account-page{
+    display: flex;
+    align-items: center;
+    width: 50%;
+    justify-content: space-between;
+    margin: 3rem auto;
+}
+
+.account-page-links {
+    text-decoration: none;
+    color: black;
+    padding: 12px 16px;
+    font-size: 20px;
+    background-color: lightgray;
+}
+
+.profile-page{
+    display: flex;
+    flex-direction: column;
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 20%;
+    border-radius: 18px;
+    margin: 0 auto;
+}
+
+.profile-page div, button{
+    margin: 10px;
+    padding: 10px ;
+    font-size: 20px;
+    border-radius: 24px;
+}
+
+.profile-page button{
+    color:white;
+    background-color:#EF4F4F;
+}

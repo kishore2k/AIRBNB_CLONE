@@ -1,0 +1,114 @@
+.accomodation-form{
+    display: flex;
+    flex-direction: column;
+    padding: 0 0 5rem;
+}
+
+.accomodation-form input{
+    padding: 10px;
+    font-size: 1rem;
+    font-style: italic;
+    border-radius: 24px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+    border: none;
+}
+
+.accomodation-form textarea{
+    padding: 5px;
+    height: 8rem;
+    font-size: 1rem;
+    font-style: italic;
+    border-radius: 18px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+    border: none;
+    padding: 10px;
+}
+
+.accomodation-form h2{
+    margin-bottom: 3px;
+
+}
+
+.accomodation-image-div{
+    display: flex;
+    align-items: center;
+}
+
+.accomodation-image-div div{
+    width: 100%;
+    max-width: 12rem;
+    height: 8rem;
+    margin: 10px 10px 10px 0;
+    position: relative;
+}
+
+.img-trash{
+    position: absolute;
+    z-index: 2;
+    right: 0;
+    bottom: 0;
+    cursor: pointer;
+    background-color: black;
+    opacity: 0.8;
+    border-radius: 100%;
+ }
+
+ .img-fav{
+    position: absolute;
+    z-index: 2;
+    cursor: pointer;
+    bottom: 0;
+    margin:3px 0 0 3px;
+    background-color: black;
+    opacity: 0.8;
+    border-radius: 100%;
+ }
+
+.accomodation-image-div img{
+    width: 100%;
+    height: 100%;
+    border-radius: 16px;
+    margin: 3px;
+}
+
+.photo-upload{
+    display: flex;
+    align-items: center;
+    width: 15rem;
+    border: none;
+    justify-content: center;
+    border-radius: 18px;
+    color: white;
+    background-color: #EF4F4F;
+    padding: 5px;
+}
+
+.perks div{
+    display: flex;
+    justify-content: space-between;
+    width: 15rem;
+    font-style: italic;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.checklist div{
+    display: flex;
+    justify-content: space-between;
+    width: 25rem;
+    font-style: italic;
+    font-size: 20px;
+    margin-bottom: 5px;
+    align-items: center;
+}
+
+.saveAccommodation{
+    color: white;
+    background-color: #EF4F4F;
+    margin-top: 25px;
+    
+}
+
+button{
+    cursor: pointer;
+}
